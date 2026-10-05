@@ -1,23 +1,18 @@
 {
-  "name": "cursor-plugin-starters",
+  "name": "rotor",
   "owner": {
-    "name": "Your Org",
-    "email": "plugins@example.com"
+    "name": "Rotor",
+    "email": "tyler@getrotor.com"
   },
   "metadata": {
-    "description": "Starter marketplace template for Cursor plugins",
-    "version": "0.1.0"
+    "description": "Rotor for Cursor: your field service business's leads, jobs, schedules, invoices and crews.",
+    "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "starter-simple",
-      "source": "./plugins/starter-simple",
-      "description": "Minimal plugin with rules and skills only"
-    },
-    {
-      "name": "starter-advanced",
-      "source": "./plugins/starter-advanced",
-      "description": "Full-featured plugin with rules, skills, agents, commands, hooks, and MCP"
+      "name": "rotor",
+      "source": "./plugins/rotor",
+      "description": "Connect Cursor to Rotor's MCP server to read and update leads, customers, jobs, visits, tasks and invoices."
     }
   ]
 }
