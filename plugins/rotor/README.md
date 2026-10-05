@@ -10,7 +10,7 @@ In Cursor, run `/add-plugin rotor`, or open the Marketplace, find **Rotor**, and
 
 ## Sign in
 
-The first time Cursor calls a Rotor tool, it opens Rotor in your browser. Sign in, choose the company to connect if you belong to more than one, review the access, and select **Approve**. Cursor stores the connection; you stay connected until you revoke access.
+The first time Cursor calls a Rotor tool, it opens Rotor in your browser. Sign in, choose the company to connect if you belong to more than one, review the access, and select **Allow**. Cursor stores the connection; you stay connected until you revoke access.
 
 Rotor answers only from the company you chose, and only what your Rotor role can already see. Payroll is limited to owners and admins.
 
@@ -22,7 +22,7 @@ Rotor answers only from the company you chose, and only what your Rotor role can
 - Create a lead for Dana Whitfield at 214 Oak Street, phone 555-0142.
 - What did the crew log on yesterday's jobs?
 
-The server exposes 47 tools: 37 read and 10 write. Write tools create and update leads, customers, visits, tasks, campaigns and message templates. No tool moves money: payments, invoices, quotes and payroll are read-only. Creating or updating leads, customers and visits can trigger your company's automations, which may send email or SMS.
+The server exposes 47 tools: 37 read and 10 write. Write tools create and update leads, customers and tasks, reschedule visits, and create campaigns, campaign audiences and message templates. No tool moves money: payments, invoices, quotes and payroll are read-only. Creating or updating leads, customers and visits can trigger your company's automations, which may send email or SMS.
 
 ## Skills
 
