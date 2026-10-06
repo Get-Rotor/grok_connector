@@ -1,0 +1,15 @@
+{
+  "name": "rotor",
+  "displayName": "Rotor",
+  "version": "1.0.0",
+  "description": "Manage your field service business from Cursor: leads, jobs, schedules, invoices and crews.",
+  "author": {
+    "name": "Rotor",
+    "email": "tyler@getrotor.com"
+  },
+  "homepage": "https://www.getrotor.com",
+  "repository": "https://github.com/Get-Rotor/grok_connector",
+  "license": "MIT",
+  "keywords": ["rotor", "crm", "field-service", "mcp", "leads", "scheduling", "invoices"],
+  "logo": "assets/logo.png"
+}
