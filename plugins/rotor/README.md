@@ -10,7 +10,7 @@ In Cursor, run `/add-plugin rotor`, or open the Marketplace, find **Rotor**, and
 
 ## Sign in
 
-The first time Cursor calls a Rotor tool, it opens Rotor in your browser. Sign in, choose the company to connect if you belong to more than one, review the access, and select **Allow**. Cursor stores the connection; you stay connected until you revoke access.
+The first time Cursor calls a Rotor tool, it opens Rotor in your browser. Sign in, choose the company to connect if you belong to more than one, review the access, accept Rotor's Terms of Service if asked, and select **Allow**. Cursor stores the connection; you stay connected until you revoke access.
 
 Rotor answers only from the company you chose, and only what your Rotor role can already see. Payroll is limited to owners and admins.
 
@@ -21,8 +21,13 @@ Rotor answers only from the company you chose, and only what your Rotor role can
 - Show me the leads that came in this month and where they are in the pipeline.
 - Create a lead for Dana Whitfield at 214 Oak Street, phone 555-0142.
 - What did the crew log on yesterday's jobs?
+- How many jobs did we book each week this quarter?
 
-The server exposes 47 tools: 37 read and 10 write. Write tools create and update leads, customers and tasks, reschedule visits, and create campaigns, campaign audiences and message templates. No tool moves money: payments, invoices, quotes and payroll are read-only. Creating or updating leads, customers and visits can trigger your company's automations, which may send email or SMS.
+The server exposes 85 tools: 49 read and 36 write. Write tools create and update leads, customers, tasks, jobs, visits, quotes and service plans; manage pipelines, crews and availability; create invoices from a job's balance due; and build campaigns and message templates.
+
+No tool charges a card, takes or records a payment, or issues a refund. Payments and payroll are read-only.
+
+Five tools send email or text to a lead or customer: `send_message`, `send_quote`, `send_invoice`, `send_service_plan_agreement` and `send_campaign`. Recipients come from Rotor records, never from the model. `send_message` only replies to contacts who have messaged you, and is limited to 30 a minute per connection; quote, invoice and agreement sends share a limit of 120 a minute. Before a campaign goes out, the assistant is told to show you a preview and send only after you say yes. Creating or updating leads, customers and visits can also trigger your company's automations, which may send email or SMS.
 
 ## Skills
 
