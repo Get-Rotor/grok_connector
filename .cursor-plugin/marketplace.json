@@ -6,13 +6,13 @@
   },
   "metadata": {
     "description": "Rotor for Cursor: your field service business's leads, jobs, schedules, invoices and crews.",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "rotor",
       "source": "./plugins/rotor",
-      "description": "Connect Cursor to Rotor's MCP server to read and update leads, customers, jobs, visits, tasks and invoices."
+      "description": "Connect Cursor to Rotor's MCP server to read and update leads, customers, jobs, visits, tasks, quotes and invoices."
     }
   ]
 }
